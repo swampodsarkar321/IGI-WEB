@@ -1,0 +1,1 @@
+WARNING: JAVA_HOME environment specifies unsupported java version: C:\Program Files\Eclipse Adoptium\jdk-21.0.12.101-hotspot

@@ -1,0 +1,7 @@
+******************************************************************
+JDK 25+ (64-bit) could not be found and must be manually chosen!
+******************************************************************
+Enter path to JDK home directory (ENTER for dialog): 
+ERROR: Failed to find a supported JDK.
+Please refer to the Getting Started document's Troubleshooting section.
+Press any key to continue . . . 
