@@ -647,7 +647,7 @@ W(WaitForSingleObject) {
 }
 
 /* Deterministic mode: a timed block. A zero-length sleep (a yield) also lets RC_DET_YIELD_US (default
-   1000) of virtual time pass: Cricket 07's intro-movie player spins on
+   1000) of virtual time pass: the game's intro-movie player spins on
    SleepEx(0) until the next movie frame is due, and with only the 1 us per clock read that took ~6,600
    scheduler hand-offs per frame (about 2 fps). */
 static int det_sleep(uint32_t ms) {

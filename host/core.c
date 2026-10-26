@@ -303,7 +303,7 @@ void vclock_frame(void) {
 static uint64_t vclock_rdtsc(void) { return (uint64_t)(guest_seconds() * 2e9); }   /* 2 GHz, as the registry says */
 /* A thread preempted after a full quantum has used CPU time, so the clock moves on by RC_DET_PREEMPT_US
    (default 1000) before the next participant is picked. Without it a thread that spins on memory without
-   reading the clock (Cricket's loading screen polling its async loader) never lets a timer come due, and
+   reading the clock (the game's loading screen polling its async loader) never lets a timer come due, and
    the timer callback it waits for never runs. */
 static void vclock_preempt(void) {
     static int64_t us = -1;

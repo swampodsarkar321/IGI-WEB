@@ -13,5 +13,5 @@ npx wrangler secret put TURN_KEY_ID
 npx wrangler secret put TURN_KEY_API_TOKEN
 ```
 
-Then open the game page with `?netplay=https://cricket07-netplay.<your-subdomain>.workers.dev`. Both
+Then open the game page with `?netplay=https://igi2-netplay.<your-subdomain>.workers.dev`. Both
 players use the same server URL, and both must run the same build from the same game files.

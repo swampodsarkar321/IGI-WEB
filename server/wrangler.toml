@@ -1,5 +1,5 @@
 # Netplay room server (see worker.js and README.md in this folder).
-name = "cricket07-netplay"
+name = "igi2-netplay"
 main = "worker.js"
 compatibility_date = "2026-10-01"
 workers_dev = true

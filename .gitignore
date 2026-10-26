@@ -17,6 +17,7 @@ functions.json
 ghidra_project/
 *.csv
 .dev.vars
+dist/
 # Local logs / junk
 *.log
 .wrangler/

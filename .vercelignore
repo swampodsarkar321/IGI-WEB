@@ -1,0 +1,23 @@
+# Only the static web app + its wasm build are needed for deployment
+host/
+runtime/
+translator/
+tools/
+tests/
+ghidra/
+out_all/
+out_trace/
+build/
+server/
+work/
+dummygame/
+*.sh
+*.c
+*.h
+*.py
+*.java
+build_web/*
+!build_web/www
+node_modules/
+.git/
+" old_text">

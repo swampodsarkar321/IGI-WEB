@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://igi-web.vercel.app/sitemap.xml
+" old_text">

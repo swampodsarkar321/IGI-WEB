@@ -1,6 +1,6 @@
-# Cricket 07 in the browser
+# IGI 2: Covert Strike in the browser
 
-EA Sports Cricket 07 (2006, Windows) running in a browser tab, with game controllers and online 1v1
+Project I.G.I. 2: Covert Strike running in a browser tab, with game controllers and online 1v1
 multiplayer. This repo has no game files and no game code, so you need your own copy of the game.
 
 ## How it was made
@@ -42,7 +42,7 @@ python3 web/serve.py                  # open http://localhost:8007/ and pick you
 
 # 5. Optional, for online play: deploy the room server (see server/README.md)
 cd server && npx wrangler deploy && npx wrangler secret put NETPLAY_SECRET
-# then open the page with ?netplay=https://cricket07-netplay.<your-subdomain>.workers.dev
+# then open the page with ?netplay=https://igi2-netplay.<your-subdomain>.workers.dev
 ```
 
 Controls: a game controller, or the keyboard (arrow keys to move, **S** to select, mouse for the
@@ -80,5 +80,5 @@ match need the same build and the same game files.
   emulator and in translated form on the same random inputs, then compares every register and every
   byte of memory touched.
 
-MIT licensed. Cricket 07 and EA Sports are trademarks of Electronic Arts, which is not involved with
+MIT licensed. IGI 2: Covert Strike and related trademarks are property of their respective owners, which is not involved with
 this project.
